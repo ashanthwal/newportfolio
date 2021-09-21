@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.st0 {
+  fill: none;
+  stroke: #999ca5;
+  stroke-miterlimit: 10;
+}
+.st1 {
+  fill: none;
+  stroke: #abaeb6;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
