@@ -1,32 +1,33 @@
-# COMPLETE PROJECT SETUP
+# Portfolio with blog
+
+Personal portfolio project built using Gatsby js and Stapi CMS. 
+
+[Link to Live Website](https://ash-anthwal.netlify.app/)
+
+The project uses the Jamstack architecture and is served as pre rendered static files for a smooth and performant user experience.
+
+<hr/>
+
+### PROJECT SETUP
 
 In order to use complete project you will need:
+1. Strapi Instance with all Contet-Types and at least single instance of data (for each content-type).
+  - Check gatsby-config for more details.
+3. Permissions for all content-type's
 
-1. Strapi Instance with all Contet-Types and at least single instance of data (for each content-type). Check gatsby-config
-2. Permissions for all content-type's
-
-## Setup Notes
+### Requirements
 
 1. All components ready to go (including imports)
-2. Use main.css - less imports
-3. Limit amount of components - better overview
-4. React Icons
+2. React Icons [Learn More](https://react-icons.github.io/react-icons/)
 
-[react icons] :https://react-icons.github.io/react-icons/
-
+Usage: 
 ```javascript
 import { FaHome } from "react-icons/fa"
 const Component = () => {
   return <FaHome className="icon"></FaHome>
 }
 ```
-
-5. Use constants to avoid repetition.
-6. In order to follow along with the video use my backend (url below)
-
-   [strapi backend]:https://github.com/john-smilga/strapi-gatsby-porfolio-2020-api
-
-7. Make sure such content-types exist in your Strapi application. Or replace/delete them in gatsby-config.js
+3. Make sure content-types exist in both Strapi application and gatsby-config.js, eg :
 
 ```javascript
 {
