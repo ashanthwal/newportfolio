@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import typewriter from "../js/typewriter.js"
 
 const Hero = () => {
   return (
